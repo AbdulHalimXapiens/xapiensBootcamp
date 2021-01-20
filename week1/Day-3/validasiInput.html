@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <input id="demo" type="text">
+    <button type="button" onclick="myFunction()">Input</button>
+    <p id="p01"></p>
+    <script>
+        function myFunction() {
+            let message, x;
+            message = document.getElementById("p01");
+            message.innerHTML = "";
+            x = document.getElementById("demo").value;
+            try {
+                if (x == "") throw "Kosong";
+                if (isNaN(x)) throw "Bukan Angka";
+                x = Number(x);
+                if (x >= 2) throw "salah";
+                if (x <= 5) throw "salah";
+            } catch (err) {
+                message.innerHTML = "Masukan " + err;
+            }
+        }
+    </script>
+</body>
+
+</html>

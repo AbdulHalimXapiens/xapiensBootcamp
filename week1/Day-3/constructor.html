@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        function Dosen(nama, pendidikan, mataKuliah, jenisKelamin) {
+            this.nama = nama;
+            this.pendidikan = pendidikan;
+            this.mataKuliah = mataKuliah;
+            this.jenisKelamin = jenisKelamin;
+
+            this.mengajar = function() {
+                console.log(`Selamat Mengajar ${this.nama}`)
+            }
+        }
+
+        let pengajar1 = new Dosen("Putri", "S2", "Java", "Perempuan");
+        let pengajar2 = new Dosen("Rian", "S2", "Kalkulus", "Laki-laki");
+        let pengajar3 = new Dosen("Risa", "S2", "PBO", "Perempuan");
+        let pengajar4 = new Dosen("Ade Gilang", "S2", "Matematika", "Laki-laki");
+
+
+        // Tidak perlu menuliskan deklarasi variabel dan returnnya
+    </script>
+</body>
+
+</html>

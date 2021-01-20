@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        function Dosen(nama, pendidikan, mataKuliah, jenisKelamin) {
+            let dosen = {};
+            dosen.nama = nama;
+            dosen.pendidikan = pendidikan;
+            dosen.mataKuliah = mataKuliah;
+            dosen.jenisKelamin = jenisKelamin;
+
+            dosen.mengajar = function() {
+                console.log(`Selamat Mengajar ${this.nama}`)
+            }
+
+            return dosen;
+        }
+
+        let pengajar1 = Dosen("Putri", "S2", "Java", "Perempuan");
+        let pengajar2 = Dosen("Rian", "S2", "Kalkulus", "Laki-laki");
+        let pengajar3 = Dosen("Risa", "S2", "PBO", "Perempuan");
+        let pengajar4 = Dosen("Ade Gilang", "S2", "Matematika", "Laki-laki");
+
+
+        // Templatenya dibuat sekali tinggal nilainya saja dibuat berulang ulang
+        //kekurangan : Bila kita melakukan instansiasi pada objeknya, semua methodenya akan dijalankan
+    </script>
+</body>
+
+</html>

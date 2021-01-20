@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let dosen = {
+            nama: "Putri",
+            pendidikan: "S2",
+            mataKuliah: "Java",
+            jenisKelamin: "Perempuan",
+            mengajar: function() {
+                console.log(`Selamat Mengajar ${this.nama}`)
+            }
+        }
+
+        let dosen2 = {
+            nama: "Rian",
+            pendidikan: "S2",
+            mataKuliah: "Kalkulus",
+            jenisKelamin: "Laki-laki",
+            mengajar: function() {
+                console.log(`Selamat Mengajar ${this.nama}`)
+            }
+        }
+
+        let dosen3 = {
+            nama: "Risa",
+            pendidikan: "S2",
+            mataKuliah: "PBO",
+            jenisKelamin: "LPerempuan",
+            mengajar: function() {
+                console.log(`Selamat Mengajar ${this.nama}`)
+            }
+        }
+
+        let dosen4 = {
+            nama: "Ade Gilang",
+            pendidikan: "S2",
+            mataKuliah: "Matematika",
+            jenisKelamin: "Laki-laki",
+            mengajar: function() {
+                console.log(`Selamat Mengajar ${this.nama}`)
+            }
+        }
+
+
+        //Kekurangannya setiap membuat objek baru maka harus dibuat semua properti 
+        //yang sekiranya bisa sama dengan objek sebelumnya, itu akan mengambil banyak memory
+        //Objeknya dibuat berulang ulang
+    </script>
+</body>
+
+</html>
