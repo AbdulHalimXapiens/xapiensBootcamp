@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let tahun = prompt("Masukkan Tahun :");
+        if ((tahun%4)===0){
+        if ((tahun%100)!==0){
+            alert(tahun + ' adalah tahun kabisat');
+        }
+        else {
+            if((tahun%400)===0) {
+            alert(tahun + ' adalah tahun kabisat');
+            }
+            else {
+            alert(tahun + 'adalah bukan tahun kabisat');
+            }
+        }
+        }
+        else {
+        alert(tahun + ' adalah bukan tahun kabisat');
+        }
+    </script>
+</body>
+
+</html>
