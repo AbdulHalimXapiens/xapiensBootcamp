@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let input = prompt("Masukkan Kata");
+
+        function reverseString(str) {
+            let splitString = str.split("");
+
+            let reverseArray = splitString.reverse();
+
+            let joinArray = reverseArray.join("");
+
+            let end = joinArray.concat(str);
+
+            return end;
+        }
+
+        document.write(reverseString(input));
+    </script>
+</body>
+
+</html>
