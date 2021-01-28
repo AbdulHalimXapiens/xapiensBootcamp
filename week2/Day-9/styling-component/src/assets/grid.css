@@ -1,0 +1,12 @@
+.parent {
+    display: flex;
+    justify-content: space-between;
+}
+
+.gallery {
+    display: flex;
+    margin: 5px;
+    border: 1px solid #ccc;
+    width: 500px;
+    height: 500px;
+}
