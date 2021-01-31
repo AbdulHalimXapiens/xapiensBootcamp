@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container_content {
+    width: 100%;
+    background-color: #fdfdfd;
+    height: 1000px;
+}
+
+.content_dalam {
+    background-color: #f7f6f6;
+    height: 1000px;
+    margin: 0 7%;
+}
+
+.conten1 {
+    display: flex;
+}
+
+.conten1 img {
+    width: 250px;
+    height: 370px;
+    border-radius: 80px;
+    margin-left: 150px;
+    margin-top: 100px;
+}
+
+.conten1 p {
+    flex: 1;
+    margin-top: 150px;
+    margin-right: 370px;
+    font-size: 30px;
+    margin-left: 130px;
+    font-family: "Bell MT";
+    color: #586056;
+    word-spacing: 2px;
+}
+
+.conten1 .button {
+    position: absolute;
+    top: 1385px;
+    left: 658px;
+    width: 130px;
+    font-size: 25px;
+    font-family: "book antiqua";
+    background-color: #949e93;
+    color: #586056;
+    height: 40px;
+}
+
+.conten2 {
+    display: flex;
+}
+
+.conten2 img {
+    width: 250px;
+    height: 370px;
+    border-radius: 80px;
+    margin-right: 150px;
+    margin-top: 50px;
+}
+
+.conten2 p {
+    flex: 1;
+    margin-top: 150px;
+    margin-right: 150px;
+    font-size: 30px;
+    margin-left: 350px;
+    font-family: "Bell MT";
+    color: #586056;
+    word-spacing: 2px;
+}
+
+.conten2 .button {
+    position: absolute;
+    top: 1855px;
+    left: 980px;
+    width: 130px;
+    font-size: 25px;
+    font-family: "book antiqua";
+    background-color: #949e93;
+    color: #586056;
+    height: 40px;
+}
+
+
+/* 
+.conten_dalam {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #f7f6f6;
+}
+
+.flex-container>div {
+    background-color: #f7f6f6;
+    width: 98.5%;
+    margin: 10px;
+    text-align: center;
+    line-height: 420px;
+    font-size: 30px;
+}
+
+.content1 {
+    display: flex;
+}
+
+.content1 .img_content1 {
+    background-color: #f7f6f6;
+    width: 30%;
+    text-align: center;
+    line-height: 420px;
+    font-size: 30px;
+}
+
+.content1 .img_content2 {
+    background-color: #f7f6f6;
+    flex: 1;
+    text-align: center;
+    line-height: 420px;
+    font-size: 30px;
+}
+
+.content2 {
+    display: flex;
+}
+
+.content2 .img_content1 {
+    background-color: #f7f6f6;
+    flex: 1;
+    text-align: center;
+    line-height: 420px;
+    font-size: 30px;
+}
+
+.content2 .img_content2 {
+    background-color: #f7f6f6;
+    width: 400px;
+    text-align: center;
+    line-height: 420px;
+    font-size: 30px;
+}
+
+.img_content1 img {
+    width: 300px;
+    padding-top: 70px;
+    border-radius: 100px;
+} */

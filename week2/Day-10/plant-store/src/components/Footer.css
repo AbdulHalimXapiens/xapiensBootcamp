@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+footer {
+    background-color: #e8e6e6;
+    color: #bbb;
+    line-height: 1.5;
+    height: 350px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #eee;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.ft-title1 {
+    color: #367835;
+    font-family: ’Merriweather’, serif;
+    font-size: 30px;
+    padding-bottom: 0.625rem;
+    font-family: "Perpetua Titling MT";
+}
+
+.ft-title {
+    color: #367835;
+    font-family: ’Merriweather’, serif;
+    font-size: 1.375rem;
+    padding-bottom: 0.625rem;
+    font-family: "Perpetua Titling MT";
+}
+
+.ft-main-item2 ul li a {
+    color: #367835;
+}
+
+.umum {
+    display: flex;
+    flex-direction: column;
+}
+
+.ft-main {
+    padding: 1.25rem 1.875rem;
+    display: flex;
+    padding-left: 90px;
+    padding-right: 80px;
+}
+
+.ft-main-item {
+    flex: 1;
+    padding: 1.25rem;
+    min-width: 12.5rem;
+}
+
+.ft-main-item2 {
+    margin-left: 80px;
+    padding: 1.25rem;
+    min-width: 12.5rem;
+    ;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.news {
+    color: #50813c;
+    font-weight: bold;
+    margin-top: 35px;
+    margin-bottom: 10px;
+}
+
+input[type="email"] {
+    border: 0;
+    padding: 0.625rem;
+    margin-top: 0.3125rem;
+    height: 50px;
+}
+
+input[type="submit"] {
+    background-color: #564d4d;
+    color: #fff;
+    cursor: pointer;
+    border: 0;
+    padding: 0.625rem 0.9375rem;
+    margin-top: 0.3125rem;
+}
+
+.term {
+    margin-top: 20px;
+}
+
+.term p {
+    margin-left: 105px;
+    color: #50813c;
+}
