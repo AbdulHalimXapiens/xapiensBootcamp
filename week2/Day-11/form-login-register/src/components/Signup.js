@@ -48,7 +48,7 @@ const Signup = () => {
         />
       </div>
       {formik.touched.name && formik.errors.name ? (
-        <div>{formik.errors.name}</div>
+        <div className="color">{formik.errors.name}</div>
       ) : null}
 
       <div className="form-group">
@@ -63,7 +63,7 @@ const Signup = () => {
           onBlur={formik.handleBlur}
         />
         {formik.touched.email && formik.errors.email ? (
-          <div>{formik.errors.email}</div>
+          <div className="color">{formik.errors.email}</div>
         ) : null}
       </div>
 
@@ -79,7 +79,7 @@ const Signup = () => {
           onBlur={formik.handleBlur}
         />
         {formik.touched.password && formik.errors.password ? (
-          <div>{formik.errors.password}</div>
+          <div className="color">{formik.errors.password}</div>
         ) : null}
       </div>
 
@@ -95,7 +95,7 @@ const Signup = () => {
           onBlur={formik.handleBlur}
         />
         {formik.touched.phoneNumber && formik.errors.phoneNumber ? (
-          <div>{formik.errors.phoneNumber}</div>
+          <div className="color">{formik.errors.phoneNumber}</div>
         ) : null}
       </div>
 
@@ -111,7 +111,7 @@ const Signup = () => {
           onBlur={formik.handleBlur}
         />
         {formik.touched.address && formik.errors.address ? (
-          <div>{formik.errors.address}</div>
+          <div className="color">{formik.errors.address}</div>
         ) : null}
       </div>
 

@@ -39,7 +39,7 @@ const Signin = () => {
           onBlur={formik.handleBlur}
         />
         {formik.touched.email && formik.errors.email ? (
-          <div>{formik.errors.email}</div>
+          <div className="color">{formik.errors.email}</div>
         ) : null}
       </div>
 
@@ -55,7 +55,7 @@ const Signin = () => {
           onBlur={formik.handleBlur}
         />
         {formik.touched.password && formik.errors.password ? (
-          <div>{formik.errors.password}</div>
+          <div className="color">{formik.errors.password}</div>
         ) : null}
       </div>
 

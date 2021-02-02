@@ -83,3 +83,7 @@ html,
 .signin-signup a {
     color: #50813c;
 }
+
+.color {
+    color: rgb(204, 68, 68);
+}
