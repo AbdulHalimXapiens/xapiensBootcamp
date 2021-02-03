@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    padding: 10px 70px;
+    padding: 0 100px;
+    border-bottom: solid 1px #367835;
+    position: absolute;
+}
+
+.judul {
+    font-size: 35px;
+    color: #367835;
+    text-transform: uppercase;
+    font-family: "Perpetua Titling MT";
+}
+
+.warna {
+    padding-left: 40px;
+    text-transform: uppercase;
+    color: #50813c;
+    font-family: "Bell Mt";
+    font-size: 18px;
+}
+
+.p1 {
+    position: absolute;
+    top: 30%;
+    left: 100px;
+    width: 500px;
+    font-size: 45px;
+    font-family: "Bell MT";
+    color: #4f4e4f;
+}
+
+.p2 {
+    position: absolute;
+    top: 46%;
+    left: 100px;
+    width: 550px;
+    font-size: 25px;
+    font-family: "Bell MT";
+    color: #586056
+}
+
+.button {
+    position: absolute;
+    top: 58%;
+    left: 100px;
+    width: 220px;
+    font-size: 25px;
+    font-family: "book antiqua";
+    background-color: #949e93;
+    color: #586056;
+}
