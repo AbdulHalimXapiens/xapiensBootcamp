@@ -1,0 +1,36 @@
+.banner {
+    position: relative;
+    background: url(../image/utama.jpg);
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    padding: 250px 0 200px;
+}
+
+.caption {
+    text-align: left;
+}
+
+.caption h2 {
+    font-size: 3em;
+    color: #4f4e4f;
+    text-transform: uppercase;
+    font-family: "Perpetua Titling MT";
+}
+
+.caption p {
+    font-size: 1.5em;
+    font-family: "Bell MT";
+    color: #4f4e4f;
+    margin-bottom: 40px;
+}
+
+.caption a {
+    border: 1px solid black;
+    padding: 15px 30px;
+    text-decoration: none;
+    color: white;
+    background: #949e93;
+    font-family: "book antiqua";
+    font-size: 1.2em;
+}
