@@ -38,9 +38,9 @@ export default function TaskProvider({ children }) {
     setEditItem(item);
   };
 
-  const editTask = (task1, id) => {
-    const newTasks = tasks.map((task) =>
-      task.id === id ? { task1, id } : task
+  const editTask = (task, id) => {
+    const newTasks = tasks.map((task1) =>
+      task1.id === id ? { task, id } : task1
     );
 
     console.log(newTasks);
