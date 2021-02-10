@@ -4,10 +4,10 @@ import { BrowserRouter, Route, Switch } from "react-router-dom";
 import Dashboard from "../Dashboard/Dashboard";
 import Login from "../Login/Login";
 import useToken from "./useToken";
-import { useHistory } from "react-router-dom";
+// import { useHistory } from "react-router-dom";
 
 function App() {
-  const history = useHistory();
+  // const history = useHistory();
   const { token, setToken } = useToken();
 
   if (!token) {
