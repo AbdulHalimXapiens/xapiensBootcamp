@@ -1,0 +1,40 @@
+.caption {
+    text-align: left;
+    margin-top: 300px;
+}
+
+.caption h2 {
+    font-size: 3em;
+    color: #4f4e4f;
+    text-transform: uppercase;
+    font-family: "Perpetua Titling MT";
+}
+
+.caption p {
+    font-size: 1.5em;
+    font-family: "Bell MT";
+    color: #4f4e4f;
+    margin-bottom: 40px;
+}
+
+.caption a {
+    border: 1px solid black;
+    padding: 15px 30px;
+    text-decoration: none;
+    color: white;
+    background: #949e93;
+    font-family: "book antiqua";
+    font-size: 1.2em;
+}
+
+@media only screen and (max-width: 770px) {
+    .caption {
+        margin-top: 80px;
+    }
+}
+
+@media only screen and (max-width: 580px) {
+    .caption {
+        margin-top: 300px;
+    }
+}

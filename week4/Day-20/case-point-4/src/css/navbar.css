@@ -1,0 +1,27 @@
+.navbar {
+    background-color: #BABFBB;
+}
+
+.navbar-logo a {
+    font-weight: 600;
+    font-family: "Perpetua Titling MT";
+    font-size: 28px;
+    text-transform: uppercase;
+    color: #367835 !important;
+}
+
+.navbar-nav a {
+    font-family: "Perpetua Titling MT";
+    font-weight: 500;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #367835 !important;
+}
+
+.navbar .navbar-nav .nav-item {
+    margin: 0 30px;
+}
+
+.nav-link:hover {
+    color: white !important;
+}
